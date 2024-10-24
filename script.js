@@ -29,7 +29,7 @@
         }
 
         // add the card
-        document.querySelector('destination-container').appendChild(destCard);
+        document.querySelector('#destination-container').appendChild(destCard);
     }
 
     function createDestinationCard(name, location, photoURL, description) {
